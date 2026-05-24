@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Chimney (behind roof) -->
+    <path
+        android:fillColor="#BF360C"
+        android:pathData="M67,14 L75,14 L75,40 L67,40 Z" />
+
+    <!-- Roof / gable triangle -->
+    <path
+        android:fillColor="#E53935"
+        android:pathData="M13,52 L54,11 L95,52 Z" />
+
+    <!-- Roof ridge line -->
+    <path
+        android:fillColor="#B71C1C"
+        android:strokeColor="#B71C1C"
+        android:strokeWidth="1.5"
+        android:pathData="M13,52 L95,52" />
+
+    <!-- House walls -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M21,52 L87,52 L87,93 L21,93 Z" />
+
+    <!-- Door -->
+    <path
+        android:fillColor="#64B5F6"
+        android:pathData="M45,70 L63,70 L63,93 L45,93 Z" />
+
+    <!-- Door knob -->
+    <path
+        android:fillColor="#1565C0"
+        android:pathData="M60,82 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+
+    <!-- Left window -->
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M27,59 L41,59 L41,70 L27,70 Z" />
+
+    <!-- Left window cross -->
+    <path
+        android:fillColor="#90CAF9"
+        android:strokeColor="#90CAF9"
+        android:strokeWidth="1"
+        android:pathData="M34,59 L34,70 M27,64.5 L41,64.5" />
+
+    <!-- Right window -->
+    <path
+        android:fillColor="#BBDEFB"
+        android:pathData="M67,59 L81,59 L81,70 L67,70 Z" />
+
+    <!-- Right window cross -->
+    <path
+        android:fillColor="#90CAF9"
+        android:strokeColor="#90CAF9"
+        android:strokeWidth="1"
+        android:pathData="M74,59 L74,70 M67,64.5 L81,64.5" />
+
+</vector>

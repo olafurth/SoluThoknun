@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Söluþóknun</string>
+    <string name="subtitle">Reiknar þinn hluta söluþóknunar fasteignar</string>
+
+    <string name="label_verd">Verð</string>
+    <string name="hint_verd">Söluverð fasteignar</string>
+    <string name="placeholder_verd">t.d. 50000000</string>
+
+    <string name="label_solu_thoknum">Söluþóknun</string>
+    <string name="hint_solu_thoknum">Þóknunarprósentan (t.d. 1.5 fyrir 1.5%)</string>
+    <string name="placeholder_solu_thoknum">t.d. 1.5</string>
+
+    <string name="label_min_hlutfall">Minn hlutfall</string>
+    <string name="hint_min_hlutfall">Hlutfall þóknunar sem fer til þín (sjálfgefið 70%)</string>
+    <string name="placeholder_min_hlutfall">70</string>
+
+    <string name="btn_reikna">Reikna</string>
+
+    <string name="result_label">Þín hluti söluþóknunar</string>
+    <string name="result_format">%s kr.</string>
+    <string name="result_detail_format">Verð: %1$s kr. × %2$s%% × %3$s%%\n= %4$s kr.</string>
+
+    <string name="result_label_vsk">Með VSK (24%)</string>
+    <string name="result_format_vsk">%s kr.</string>
+
+    <string name="error_empty_fields">Vinsamlegast fylltu inn verð og söluþóknun</string>
+    <string name="error_invalid_number">Ógilt tala – vinsamlegast sláðu inn gildar tölur</string>
+    <string name="error_invalid_hlutfall">Hlutfall verður að vera á milli 0 og 100</string>
+</resources>
